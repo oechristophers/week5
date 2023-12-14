@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+main section {
+  @apply border-4 border-b-blue-400 border-solid;
+}
+
+section{
+    @apply even:bg-blue-500 odd:bg-green-500
+}
